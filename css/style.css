@@ -1,0 +1,36 @@
+/* 
+* This class will be added to the header to make it fixed.
+*/
+.float-panel {
+    width:100%;
+	background:white;
+	z-index:300;
+	padding:0px 0;
+	transform: translateZ(0);
+    transition:all 0.5s; 
+}
+.fixed {
+	border-bottom: 1px solid #eee;
+	box-shadow:0 2px 6px rgba(0,0,0,0.2);
+	padding:4px 0;
+	animation:slide-down 0.7s;
+	opacity:1;
+}
+@keyframes slide-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    } 
+}
+/* ---------------- Customize your header  ------------------*/
+/* replace -> #header-site */
+#header-site.float-panel{
+	/* Code CSS Here */
+}
+#header-site.fixed{
+	/* Code CSS Here */
+}
