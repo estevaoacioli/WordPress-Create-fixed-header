@@ -1,5 +1,5 @@
 # WordPress-Create-fixed-header
-WordPress Create fixed header
+WordPress Create Fixed Header
 
 ### How to use
 * Paste the PHP code into your WordPress theme's function.php file
